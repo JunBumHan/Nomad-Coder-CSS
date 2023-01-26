@@ -1,0 +1,60 @@
+학습 목표 
+    - block[padding] 만 가지고 있는 특징에 대해 이해하자
+
+위 문제를 해결하기 위해서 Padding에 대해 알아보자!
+
+    - Padding 
+        Padding은 margin과 반대 개념이다.
+        margin은 box의 경계로부터 바깥에 있는 공간
+        padding은 margin과 같이 공간인데 box의 경계로 부터 안쪽에 있는 공간이다.
+
+        padding은 margin과 같이 값에 따른 다른 대입이 가능하다!
+
+
+    + id를 selector 하는 방법
+        여태까지 우리는 태그를 selector를 해주었는데
+        태그에 id를 지정해 id에 해당되는 selector를 만드는 방법은
+        '#'을 붙여주면 가능하다! 
+        이렇게 함으로써 얻을 수 있는 효과는 중복 코드를 제거할 수 있다는 점이다.
+        중복 코드는 div selector에 작성하고 각각 다른 속성은 id를 생성해 
+        id selector를 작성해주면 되기 때문이다.
+    예시
+        div {
+            
+            padding : 10px;
+        }
+        #first {
+            background-color: whitesmoke;
+            width:150px;
+            height : 150px;
+        }
+
+        #second {
+            background-color: blueviolet;
+            width:150px;
+            height : 150px;
+        }
+        
+        #third {
+            background-color: beige;
+            width:50px;
+            height : 50px;
+        }
+        #fourth {
+            background-color: brown;
+            width:25px;
+            height : 25px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div id="first">
+        <div id="second">
+            <div id="third">
+                <div id="fourth"></div>
+            </div>
+        </div>
+    </div>
+    
+    
