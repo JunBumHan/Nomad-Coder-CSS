@@ -1,0 +1,24 @@
+학습 목표
+    - block 만 가지고 있는 특징에 대해 이해하자
+
+Inline 특징을 살펴보지 않는 이유는 특징이 없기 때문이다.
+
+- block을 inline으로 , inline을 block으로
+    CSS 속성을 보면 display 가 있는데 , 이 값에 따라 inline, block으로 변경 할 수 있다.
+    그러면 div를 inline, span을 block으로 변경해보자.
+    어! div가 사라진 것을 확인 할 수 있다. 
+    왜냐하면 inline은 높이와 너비가 없기 때문이다.  
+    반면 block은 높이와 너비가 있다. 
+    정리하자면 inline은 높이와 너비를 가질 수 없고, block은 높이와 너비를 가질 수 있다.
+
+- block과 inline의 차이점
+    block은 box에 포함되는데, box는 세가지 속성을 가지고 있다.
+    1. Margin : box의 border(경계)의 바깥에 있는 공간
+    2. Border
+    3. Padding
+    
+    Margine에는  위쪽, 아래쪽, 왼쪽, 오른쪽, 모두 공간이 있다.
+
+결론적으로 block은 Box에 포함되며, Box는 세 가지 속성을 가지고 있다.
+    Margin, Border, Padding
+    우리는 Margin : box의 border(경계)의 바깥에 있는 공간을 살펴보았다.
