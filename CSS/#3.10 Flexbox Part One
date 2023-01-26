@@ -1,0 +1,34 @@
+학습 목표
+    - FlexBox에 대해 알아보자
+
+    - Flex box
+        flex box는 매우 유연하게 표현해주는 속성이다. 
+        사용하기 위해서는 display : flex; 를 서술해야 한다.
+        그런데 flex box를 사용할 때 지켜야할 규칙 3가지가 있다.
+
+         - Flex box 규칙
+            1. 자식 요소에는 어떤 것도 적지 말야야 된다.
+                => 부모 요소에만 명시해야 한다. 
+                => div를 움직이게 하려면 div의 부모를 display:flex로 만든다.
+
+        - Flex box의 주축(main axis)과 교차축(cross axis)
+            2. 주축(main axis) : 수학의 2차 평면의 x 축과 같음 ( 수평 )
+                => justify-content는 주축에 사용된다.
+            3. 교차축(cross axis) : 기본적으로 수학의 2차 평면의 y축과 같음 ( 수직 )
+                => 기본적이라고 말한 까닭은 나중에 이 속성을 바꿀 수 있기 때문에 
+                => align-items는 수직에 사용된다.
+
+        - flex의 여러가지 속성을 사용하려면 body의 높이가 중요하다. 
+            이 높이를 올려주는 명령문은 height : 100vh; 이다. 
+            vh(viewport height)
+            viewport는 screen 이라고 생각해도 된다.
+
+        - 정리
+        Inline block을 사용했는데 매우 큰 단점이 있었다. 바로 반응형이 아니라는 점이었다.
+        이걸 해결하기 위해서 Flex를 사용했다.
+        flex를 사용하기 위해서는 flex 컨테이너를 선언해야 하는데.
+        flex 컨테이너는 부모 요소에만 명시해야 한다는 규칙이 있어.
+        
+        flex 컨테이너에는 주측(main axis)과 교차축(cross axis)가 존재한다. 
+        기본 값으로는 주측은 수평이고, 교차축은 수직이다. 그리고 언제나 변경은 가능하다. 
+        

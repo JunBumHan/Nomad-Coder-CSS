@@ -1,0 +1,17 @@
+학습 목표 
+    - pseudo selector에 대해 알아보자
+
+
+    - 개념
+        우리는 여태까지 클래스를 이용해 태그를 선택하여 꾸며줬다.
+        pseudo selector는 좀더 자세히 선택이 가능하다.
+        => 좀더 세부적으로 엘리먼트를 선택할 수 있다.
+
+    - 그러면 왜 사용할까?
+        사용하는 이유는 html 코드를 좀 더 깔끔하게 작성할 수 있기 때문이다.
+
+    - 강의에서 나온 pseudo selector
+        tag : first-child (tag의 첫 번째 놈)
+        tag : nth-child(2) (tag의 두 번째 놈)
+        tag : nth-child(even) (tag의 짝수 놈) 
+        tag : nth-child(Xn + 1) (tag의 X번째 놈)

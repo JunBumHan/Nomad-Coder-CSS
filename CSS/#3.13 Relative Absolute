@@ -1,0 +1,13 @@
+학습 목표
+    - position[static, relative, absolute]를 알아보자 
+
+    - position : static [default]
+        posistion : static은 레이아웃이 박스를 처음 위하는 곳에 두는 것을 말한다. or  element가 처음 생성된 자리에 고정.
+     
+    - position : relative
+       가끔 조금씩만 오른쪽, 왼쪽으로 옮기고 싶을 떄가 있다. 이떄 사용하면 좋다.
+       => 엘리먼트가 처음 놓인 자리에서 top, left, rigth, bottom을 이용해 상하좌우를 움직일 수 있다.
+         
+    - position : absolute
+        absolute는 가장 가까운 relative 부모를 기준으로 이동시켜 준다.
+        만약 조상중에서 relative한 부모가 없다면 현재 화면 기준으로 position : absolute 명령이 실행된다.
