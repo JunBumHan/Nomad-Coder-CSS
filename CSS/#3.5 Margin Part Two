@@ -1,0 +1,27 @@
+학습 목표 
+    - block[Margin] 만 가지고 있는 특징에 대해 이해하자
+
+- 값에 따른 다른 대입
+    - margin : value
+        => top = value, right = value, bottom = value, left = value
+        => 상하좌우 value 값 적용
+
+    - margin : value1 value2 
+        => top = value1, bottom = value1, right = value2, left = value2
+        => 수직 , 수평 value 값 적용 
+
+    - margin : value1 value2 value3 value4
+        => top = value1, right = value2, bottom = value3, left = value4
+        => 위, 오른쪽, 아래쪽, 왼쪽 -> 시계 방향 순으로 value 값 적용
+
+- collapsing margins
+    - 설명
+        body의 상하 크기와 div의 상하 크기를 수정하면 다르게 수정되는 것이 아닌, 동시에 마치 하나의 마진이 생긴 것처럼 된다.
+    - 원인 
+        한 box의 경계가 또 다른 박스의 경계와 같을 때 
+    - 결과
+        하나의 margin으로 취급 됌
+    - 조건 
+        위 아래에서만 일어 남.
+
+    그러면 이 현상을 어떻게 해결 할까? 그래서 padding 개념이 탄생함.
