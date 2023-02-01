@@ -1,0 +1,39 @@
+학습 목표 
+    - pseudo selector '>', '+', '~' 에 대해 알아보자
+
+    노마더 센세가 말하길, 매우매우 유용하다!
+
+    div span 
+    => <div> {};
+        ....
+            <span>여기에 적용!</span>
+            <span>여기에 적용!</span>
+            <span>여기에 적용!</span>
+            ....
+                <span>여기에 <span>여기에 적용!</span>적용!</span>
+        </div>
+
+    div > span {};
+    => <div>
+            <span> 여기에 적용! </span>
+            <span> 여기에 적용 안됌 </span>
+            <span> 여기에 적용 안됌 </span>
+            <span> 여기에 적용 안됌 </span>
+            <span> 여기에 적용 안됌 </span>
+        </div>
+
+    div + span {};
+    => <div>
+            <span> 여기에 적용 안됌 </span>
+        </div>
+        <span> 여기에 적용 됌! </span>
+        <span> 여기에 적용 안됌 </span>
+
+    div ~ span {};
+    => <div>
+            <span> 여기에 적용 안됌 </span>
+        </div>
+        <span> 여기에 적용 안됌 </span>
+        <span> 여기에 적용 됌! </span>
+
+        다른 selctor들을 결합(combine)하기 때문에 combinator
