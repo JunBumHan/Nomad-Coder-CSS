@@ -1,0 +1,12 @@
+1) :: placeholder (0:46)
+: placeholder의 특성만 바꾸고 싶을 때 사용합니다.
+
+2) :: selection (1:31)
+: 클릭해서 긁을 때(1:58) 발생합니다.
+
+3) :: first-letter
+: 첫 글자에만 적용됩니다.
+
+4) ::first-line
+: 첫 줄에만 작용합니다.
+

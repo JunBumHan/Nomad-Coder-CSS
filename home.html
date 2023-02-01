@@ -1,25 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
 <head>
+    <title>JunBumHan</title>
+    
     <style>
-      div {
-        width : 300px;
-        height :300px;
-        background-color: wheat;
-        position: relative;
-   
+      body {
+        display : flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
       }
-      
-      div:nth-child(2) {
-        background-color: aqua;
+      div {
+        background-color: teal;        
+        width: 200px;
+        height : 200px; 
+      }
+      @media screen and (max-width: 600px) {
+        div {
+          background-color: tomato;
+        }
       }
     </style>
 </head>
 <body>
-    <div><div></div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-</body>
+  <div></div>
+</body> 
 </html>
