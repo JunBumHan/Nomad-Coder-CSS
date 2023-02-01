@@ -1,0 +1,23 @@
+학습 목표 
+    - pseudo selector의 속성을 이용하기에 대해 알아보자
+
+    왼래는 class, id, 위치에 따라서 선택자를 지정해줬는데, 이번에는 다른 방법으로 지정할 수 있다.
+    바로 속성을 이용해 할 수 있다.
+
+    예를 들면 
+    form을 생성하고 input 태그를 사용하면 required속성을 사용하는데 선택자를 이렇게 서술할 수 있다.
+    CSS => input:required {
+        블라:블라;
+    }
+
+    그리고 
+    input[placeholder="name"] {
+
+    };
+    placeholder에 name이면 적용, 이렇게도 가능하다.
+
+    input[placeholder~="name"] {
+
+    };
+    placeholder에 name이 포함 되면 적용, 이렇게도 가능.
+        
